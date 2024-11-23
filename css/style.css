@@ -984,10 +984,10 @@
         padding: 0px 0px;
     }
     .us input {
-        padding: 10px 200px 10px 10px;
+        padding: 10px 310px 10px 10px;
     }
     .us textarea {
-        padding: 10px 230px 10px 10px;
+        padding: 10px 342px 10px 10px;
     }
     .card {
         width: 80%;
@@ -999,7 +999,7 @@
         left: 60px;
     }
     .usmap {
-        width: 80%;
+        width: 100%;
         margin: 20px 0px 30px 0px;
     }
     .footone{
@@ -1092,7 +1092,7 @@
         padding: 10px 50px 10px 10px;
     }
     .us textarea {
-        padding: 10px 82px 10px 10px;
+        padding: 10px 90px 10px 10px;
     }
     .us{
         margin: 0px 0px 0px 10px;
