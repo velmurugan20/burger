@@ -971,7 +971,10 @@
     }
     .aimage img {
         width: 80%;
-    }
+    } 
+     .offimage img {
+         top: 10px;
+     }
     .acontent {
         margin-top: 0px;
     }
@@ -980,10 +983,14 @@
         padding: 0px 0px;
     }
     .us input {
-        padding: 10px 330px 10px 10px;
+        padding: 10px 310px 10px 10px;
     }
     .us textarea {
-        padding: 10px 345px 10px 10px;
+        padding: 10px 342px 10px 10px;
+    }
+    .card {
+        width: 80%;
+        height: 92%;
     }
     .col-sm-8{
         padding: 20px 0px;
@@ -1013,6 +1020,13 @@
 
 /* For screens 560px and below */
 @media (max-width: 560px) {
+    .navbar-light .navbar-brand {
+        margin-left: 30px;
+    }
+    .oof {
+        left: 20px;
+       }
+
     .banner h1{
         font-size: 50px;
     }
@@ -1030,25 +1044,25 @@
         font-size: 22px;
     }
     .card{
-        width: 80%;
+        width: 85%;
         position: relative;
-        left: 50px;
+        left: 25px;
     }
     .offimage img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     .aimage img {
-        width: 70%;
+        width: 80%;
         position: relative;
-        left: 70px;
+        left: 30px;
     }
     .acontent h2 {
-        font-size: 50px;
+        font-size: 35px;
     }
     .acontent p {
         font-size: 14px;
-        padding: 0px 50px 0px 0px;
+        padding: 5px 10px 0px 0px;
     }
     .acontent{
         margin: -20px 0px 0px 10px;
@@ -1074,10 +1088,10 @@
         left: 50px;
     }
     .us input {
-        padding: 10px 210px 10px 10px;
+        padding: 10px 95px 10px 10px;
     }
     .us textarea {
-        padding: 10px 230px 10px 10px;
+        padding: 10px 126px 10px 10px;
     }
     .us{
         margin: 0px 0px 0px 30px;
@@ -1093,20 +1107,19 @@
     .foottwo p{
         padding: 0px 30px 0px 30px;
     }
-    .btnpop {
-        padding: 4px 3px 4px 3px;
-        font-size: 13px;
-        margin: -48px 0px 13px 392px;
-    }
     .modal.show .modal-dialog {
         transform: none;
         width: 70%;
         position: relative;
         left: 60px;
     }
-    .offimage{
-        position: relative;
-        left: 25px;
-        top: 10px;
+    .minfoot{
+        font-size: 14px;
+        font-weight: 500;
     }
+    .minfoot1{
+        font-size: 14px;
+        font-weight: 500
+    }
+
 }
