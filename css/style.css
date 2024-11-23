@@ -798,6 +798,9 @@
 .minfoot1 span{
     color: var(--main-color);
 }
+.minfoot1 a{
+    text-decoration:none;
+}
 .minfoot1{
     text-align: end;
 }
@@ -808,8 +811,6 @@
     border:2px solid var(--main-color)!important;
     outline:none;
 }
-
-
 
 
 
@@ -1070,31 +1071,31 @@
     .ser1{
         width: 80%;
         position: relative;
-        left: 50px;
+        left: 35px;
     }
     .ser2{
         width: 80%;
         position: relative;
-        left: 50px;
+        left: 35px;
     }
     .ser3{
         width: 80%;
         position: relative;
-        left: 50px;
+        left: 35px;
     }
     .ser4{
         width: 80%;
         position: relative;
-        left: 50px;
+        left: 35px;
     }
     .us input {
-        padding: 10px 95px 10px 10px;
+        padding: 10px 80px 10px 10px;
     }
     .us textarea {
-        padding: 10px 126px 10px 10px;
+        padding: 10px 115px 10px 10px;
     }
     .us{
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 10px;
     }
     .usmap {
        display: none;
